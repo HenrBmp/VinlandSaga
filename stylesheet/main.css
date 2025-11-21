@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
 :root {
     /* COLOR */
+    --yellow: #FFC529;
+    --red-1: #FF4529;
+    --red-2: #be0500;
+    --white: #F1F1F1;
+
+    font-family: system-ui;
+    font-size: 14px;
 }
 
 /* UTILITY CLASS */
 
-.normal-font {
-
-}
-
 .nordic-font {
-
+    font-family: "Caesar Dressing";
 }
