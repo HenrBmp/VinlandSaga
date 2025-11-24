@@ -1,0 +1,25 @@
+div#head-structure,
+div#structure {
+    min-height: 100dvh;
+    background: var(--white);
+}
+
+div#head-structure {
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+
+#header {
+    background: var(--red-2);
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header,
+#nav {
+    padding: 1rem 2rem;
+}
