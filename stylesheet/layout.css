@@ -1,3 +1,10 @@
+#logo {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    filter: saturate(0);
+}
+
 div#head-structure,
 div#structure {
     min-height: 100dvh;
@@ -11,15 +18,29 @@ div#head-structure {
 
 #header {
     background: var(--red-2);
-}
-
-#nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    height: 60dvh;
 }
 
 #header,
 #nav {
-    padding: 1rem 2rem;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header {
+    padding: .5rem 2rem;
+}
+
+#nav {
+    background: var(--black);
+    color: var(--white);
+}
+
+#video-background-container {
+    overflow-x: hidden;
+
+    /* position: relative; */
 }
