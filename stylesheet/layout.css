@@ -16,14 +16,8 @@ div#head-structure {
     grid-template-rows: 60% 40%;
 }
 
-#header {
-    background: var(--red-2);
-    height: 60dvh;
-}
-
 #header,
 #nav {
-    padding: 0rem 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -31,16 +25,26 @@ div#head-structure {
 }
 
 #header {
+    background: var(--red-2);
+    height: 60dvh;
+}
+
+#header {
     padding: .5rem 2rem;
 }
 
 #nav {
-    background: var(--black);
+    padding: 0rem 3.5rem;
+    background: linear-gradient(var(--red-2) 0%, var(--black) 80%);
     color: var(--white);
+}
+
+#footer {
+    padding: 2rem;
 }
 
 #video-background-container {
     overflow-x: hidden;
-
-    /* position: relative; */
+    height: min-content;
+    position: relative;
 }

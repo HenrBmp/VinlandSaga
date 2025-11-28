@@ -4,8 +4,8 @@
 *::after,
 *::before {
     box-sizing: border-box;
-    /* padding: 0;
-    margin: 0; */
+    padding: 0;
+    margin: 0;
 }
 
 html {
@@ -34,4 +34,32 @@ body {
 
 .nordic-font {
     font-family: "Caesar Dressing";
+}
+
+.dark-bg {
+    background: var(--black);
+}
+
+.light-bg {
+    background: var(--white);
+}
+
+.light-font {
+    color: var(--white);
+}
+
+.dark-font {
+    color: var(--black);
+}
+
+.red-bg {
+    background: var(--red-2);
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.txt-indent {
+    text-indent: 1.5rem;
 }
