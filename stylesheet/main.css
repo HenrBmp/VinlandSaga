@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Lexend:wght@100..900&display=swap');
+@import url(layout.css);
+@import url(others.css);
+@import url(txt-class.css);
+@import url(keyframe.css);
+@import url(links.css);
+@import url(utility-class.css);
 
 *,
 *::after,
@@ -10,6 +16,7 @@
 
 html {
     scrollbar-width: thin;
+    scroll-behavior: smooth;
     scrollbar-color: var(--red-2) var(--black);
 }
 
@@ -28,38 +35,4 @@ body {
     font-family: Lexend;
     font-size: 14px;
     color: var(--black);
-}
-
-/* UTILITY CLASS */
-
-.nordic-font {
-    font-family: "Caesar Dressing";
-}
-
-.dark-bg {
-    background: var(--black);
-}
-
-.light-bg {
-    background: var(--white);
-}
-
-.light-font {
-    color: var(--white);
-}
-
-.dark-font {
-    color: var(--black);
-}
-
-.red-bg {
-    background: var(--red-2);
-}
-
-.fw-300 {
-    font-weight: 300;
-}
-
-.txt-indent {
-    text-indent: 1.5rem;
 }

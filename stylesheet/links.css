@@ -1,0 +1,44 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.links-pages,
+.links-pages::after {
+    transition: all .15s;
+}
+
+.links-pages {
+    position: relative;
+    opacity: .8;
+}
+
+.links-pages:hover {
+    opacity: 1;
+    font-size: 110%;
+}
+
+.links-pages::after {
+    content: "";
+    background: var(--white);
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 0%;
+    bottom: 1px;
+    left: 50%;
+}
+
+.links-pages:hover::after {
+    width: 100%;
+    left: 0%;
+}
+
+.links-pages:visited {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.ext-links {
+
+}

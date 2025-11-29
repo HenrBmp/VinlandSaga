@@ -1,3 +1,7 @@
+#main {
+    height: max-content;
+}
+
 #logo {
     width: auto;
     height: auto;
@@ -35,7 +39,7 @@ div#head-structure {
 
 #nav {
     padding: 0rem 3.5rem;
-    background: linear-gradient(var(--red-2) 0%, var(--black) 80%);
+    background: linear-gradient(var(--red-2), var(--black));
     color: var(--white);
 }
 

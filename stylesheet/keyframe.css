@@ -1,0 +1,9 @@
+@keyframes entrada-video-bg {
+    0% {
+        filter: blur(0px) brightness(1);
+    }
+
+    100% {
+        filter: blur(8px) brightness(.8);
+    }
+}
