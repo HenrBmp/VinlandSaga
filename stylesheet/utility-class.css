@@ -18,6 +18,10 @@
     color: var(--black);
 }
 
+.red-font {
+    color: var(--red-2);
+}
+
 .red-bg {
     background: var(--red-2);
 }
@@ -36,4 +40,20 @@
 
 .p2rem {
     padding: 2rem;
+}
+
+.m2rem {
+    margin: 2rem;
+}
+
+.m1rem {
+    margin: 1rem;
+}
+
+.m05rem {
+    margin: 0.5rem;
+}
+
+.blend-diff {
+    mix-blend-mode: difference;
 }

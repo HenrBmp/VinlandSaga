@@ -35,4 +35,7 @@ body {
     font-family: Lexend;
     font-size: 14px;
     color: var(--black);
+
+    --ease-in-out: cubic-bezier(.75, 0 , .25, 1);
+    --ease-in: cubic-bezier(0, .5, .5, 1);
 }

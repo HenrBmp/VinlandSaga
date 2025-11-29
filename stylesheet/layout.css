@@ -1,5 +1,7 @@
-#main {
-    height: max-content;
+.grid {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100dvh;
 }
 
 #logo {
@@ -9,13 +11,13 @@
     filter: saturate(0);
 }
 
-div#head-structure,
-div#structure {
+#head-structure,
+#structure {
     min-height: 100dvh;
     background: var(--white);
 }
 
-div#head-structure {
+#head-structure {
     display: grid;
     grid-template-rows: 60% 40%;
 }
