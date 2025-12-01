@@ -8,7 +8,7 @@
     width: auto;
     height: auto;
     max-height: 100%;
-    filter: saturate(0);
+    filter: saturate(.2);
 }
 
 #head-structure,
@@ -53,4 +53,20 @@
     overflow-x: hidden;
     height: min-content;
     position: relative;
+}
+
+.content-page {
+    display: grid;
+    grid-template-columns: 65vw 1fr;
+}
+
+article {
+    line-height: normal;
+    font-weight: 350;
+    font-size: 16px;
+}
+
+#ficha {
+    margin-top: 10dvh;
+    height: fit-content;
 }

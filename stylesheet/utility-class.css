@@ -31,7 +31,7 @@
 }
 
 .txt-indent {
-    text-indent: 1.5rem;
+    text-indent: 2rem;
 }
 
 .p1rem {
@@ -56,4 +56,12 @@
 
 .blend-diff {
     mix-blend-mode: difference;
+}
+
+.article-p {
+    padding: 3vh 4vw;
+}
+
+.txt-center {
+    text-align: center;
 }

@@ -36,7 +36,7 @@
 }
 
 #infos,
-#infos div {
+#infos a {
     height: 4vh;
     display: flex;
     flex-direction: row;
@@ -45,6 +45,7 @@
     width: fit-content;
 }
 
-#infos div {
+#infos a {
     gap: .25rem;
 }
+
