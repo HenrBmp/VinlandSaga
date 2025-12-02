@@ -4,11 +4,14 @@ a {
 }
 
 .links-pages,
-.links-pages::after {
+.links-pages::after,
+.c-link,
+.c-link::after {
     transition: all .15s;
 }
 
-.links-pages {
+.links-pages,
+.c-link {
     position: relative;
     opacity: .8;
 }
@@ -18,7 +21,12 @@ a {
     font-size: 110%;
 }
 
-.links-pages::after {
+.c-link:hover {
+    opacity: 1;
+}
+
+.links-pages::after,
+.c-link::after {
     content: "";
     background: var(--white);
     display: block;
@@ -29,16 +37,12 @@ a {
     left: 50%;
 }
 
-.links-pages:hover::after {
+.c-link::after {
+    background: var(--black);
+}
+
+.links-pages:hover::after,
+.c-link:hover::after {
     width: 100%;
     left: 0%;
-}
-
-.links-pages:visited {
-    font-size: 1.2em;
-    font-weight: 600;
-}
-
-.ext-links {
-
 }

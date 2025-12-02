@@ -8,7 +8,7 @@
     width: auto;
     height: auto;
     max-height: 100%;
-    filter: saturate(.2);
+    filter: saturate(.1);
 }
 
 #head-structure,
@@ -57,7 +57,14 @@
 
 .content-page {
     display: grid;
-    grid-template-columns: 65vw 1fr;
+}
+
+.content-page.withTable {
+    grid-template-columns: 15% 1fr 25%;
+}
+
+.content-page.withoutTable {
+    grid-template-columns: 15% 1fr;
 }
 
 article {
@@ -66,7 +73,8 @@ article {
     font-size: 16px;
 }
 
-#ficha {
-    margin-top: 10dvh;
+summary {
+    position: sticky;
+    top: 5px;
     height: fit-content;
 }

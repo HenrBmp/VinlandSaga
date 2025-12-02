@@ -49,3 +49,27 @@
     gap: .25rem;
 }
 
+#ficha {
+    margin-top: 10dvh;
+    height: fit-content;
+}
+
+#ficha img {
+    display: block;
+    margin-inline: auto;
+    margin-block: 1rem;
+    width: 75%;
+    border-radius: 6px;
+    border: 3px solid var(--white);
+    outline: 2px solid var(--black);
+}
+
+#ficha table {
+    width: 100%;
+    border-radius: 4px;
+    background: hsl(from var(--white) h s 90);
+}
+
+td {
+    padding: .25rem;
+}
