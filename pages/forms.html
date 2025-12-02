@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet/main.css">
+    <title>form</title>
+</head>
+<body class="grid">
+    <main id="main" class="light-bg dark-font article-p">
+        <article>
+            <h1>Bem vindo ao maior fan-clube de Vinland Saga!</h1>
+            <p class="txt-indent">Se você é apaixonado por Vinland Saga, este é o seu lugar! Aqui reunimos fãs que admiram a história e a jornada épica criada por Makoto Yukimura. Preencha o formulário abaixo para entrar para nossa comunidade, receber novidades, participar de eventos e compartilhar teorias, artes e tudo o que faz desse mundo algo tão especial.</p>
+        </article>
+        <form action="mailto:mrpythonsbumpado@gmail.com" method="post">
+            <fieldset class="p1rem">
+                <legend>Fomulário</legend>
+
+                <div class="entry_text">
+                    <label for="name">Nome completo<span class="red-font">*</span>:</label>
+                    <input type="text" name="name" required>
+                </div>
+
+                <div class="entry_text">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="your@email.com">
+                </div>
+
+                <div class="entry_text">
+                    <label for="nacionalid">Nacionalidade<span class="red-font">*</span>:</label>
+                    <input type="text" name="nacionalid" required>
+                </div>
+
+                <div class="entry_text">
+                    <label for="estado">Estado:</label>
+                    <input type="text" name="estado">
+                </div>
+
+                <div class="entry_date">
+                    <label for="birth">Data de nascimento<span class="red-font">*</span>:</label>
+                    <input type="date" name="birth" required>
+                </div>
+
+                <div class="entry_text">
+                    <label for="cpf">CPF: </label>
+                    <input type="text" name="cpf" placeholder="999.999.999-99" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}">
+                </div>
+
+                <div class="entry_numb">
+                    <label for="phone">Telefone<span class="red-font">*</span>:</label>
+                    <input type="tel" placeholder="(99) 9999-9999" name="phone" required>
+                </div>
+
+                <input class="formB" type="submit" value="Enviar" name="submit">
+                <input class="formB" type="reset" value="Limpar" name="clear">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer id="footer" class="red-bg light-font">
+        <p class="fw-300">Insipirado em um obra de Makoto Yukimura.
+        <p class="fw-300">Todos os direitos reservados.
+    </footer>
+</body>
+</html>

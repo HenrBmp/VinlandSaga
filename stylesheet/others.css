@@ -1,4 +1,4 @@
-/* gradiente da parte de baixo do video */
+/* GRADIENTE DO VIDEO */
 #gradient-bott {
     background: linear-gradient(0deg, var(--black) 10%, rgba(0, 0, 0, 0));
     width: 100%;
@@ -9,7 +9,7 @@
     pointer-events: none;
 }
 
-/* video de fundo */
+/* VIDEO DE FUNDO */
 .bg-video {
     width: calc(100% + 10px);
     max-height: min-content;
@@ -20,6 +20,8 @@
     animation: entrada-video-bg 6s;
     z-index: 1;
 }
+
+/* INFORMAÇÕES DA HOME */
 
 #sobrep-video {
     z-index: 3;
@@ -49,6 +51,8 @@
     gap: .25rem;
 }
 
+/* TABELA DE INFORMAÇÕES */
+
 #ficha {
     margin-top: 10dvh;
     height: fit-content;
@@ -72,4 +76,70 @@
 
 td {
     padding: .25rem;
+}
+
+#footer > p {
+    display: block;
+    width: max-content;
+    margin: auto;
+    text-align: center;
+}
+
+/* FORMULARIO */
+
+fieldset {
+    border-radius: 12px;
+    border: 2px solid var(--black);
+    width: max-content;
+}
+
+legend {
+    background-color: var(--white);
+    padding: .1rem .5rem;
+    border-radius: 12px;
+    box-shadow: var(--black) -2px 2.1px;
+}
+
+input {
+    font: inherit;
+    margin-block: .25rem;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--black);
+}
+
+input[type="date"] {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.formB {
+    border: none;
+    padding: .25rem .75rem;
+    border-radius: 18px;
+    border: 2px solid var(--black);
+    color: var(--white);
+    margin: .5rem;
+    transition: all 125ms var(--ease-in-out);
+}
+
+.formB:hover {
+    translate: -3px -3px;
+    box-shadow: var(--black) 3px 3px 2px;
+}
+
+.formB:active {
+    translate: 0px 0px;
+    box-shadow: var(--black) 0 0;
+    opacity: .9;
+}
+
+input[type="submit"] {
+    background: green;
+}
+
+input[type="reset"] {
+    background: red;
 }
