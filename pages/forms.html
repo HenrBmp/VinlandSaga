@@ -16,41 +16,88 @@
             <fieldset class="p1rem">
                 <legend>Fomulário</legend>
 
-                <div class="entry_text">
-                    <label for="name">Nome completo<span class="red-font">*</span>:</label>
-                    <input type="text" name="name" required>
-                </div>
+                <fieldset class="p1rem">
+                    <legend>Informações pessoais</legend>
 
-                <div class="entry_text">
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" placeholder="your@email.com">
-                </div>
+                    <div class="entry_text">
+                        <label for="name">Nome completo<span class="red-font">*</span>:</label>
+                        <input type="text" name="name" required>
+                    </div>
 
-                <div class="entry_text">
-                    <label for="nacionalid">Nacionalidade<span class="red-font">*</span>:</label>
-                    <input type="text" name="nacionalid" required>
-                </div>
+                    <div class="entry_text">
+                            <label for="nick">Apelido:</label>
+                        <input type="text" name="nick">
+                    </div>
 
-                <div class="entry_text">
-                    <label for="estado">Estado:</label>
-                    <input type="text" name="estado">
-                </div>
+                    <div class="entry_text">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="your@email.com">
+                    </div>
 
-                <div class="entry_date">
-                    <label for="birth">Data de nascimento<span class="red-font">*</span>:</label>
-                    <input type="date" name="birth" required>
-                </div>
+                    <div class="entry_text">
+                        <label for="nacionalid">Nacionalidade<span class="red-font">*</span>:</label>
+                        <input type="text" name="nacionalid" required>
+                    </div>
 
-                <div class="entry_text">
-                    <label for="cpf">CPF: </label>
-                    <input type="text" name="cpf" placeholder="999.999.999-99" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}">
-                </div>
+                    <div class="entry_text">
+                        <label for="estado">Estado:</label>
+                        <input type="text" name="estado">
+                    </div>
 
-                <div class="entry_numb">
-                    <label for="phone">Telefone<span class="red-font">*</span>:</label>
-                    <input type="tel" placeholder="(99) 9999-9999" name="phone" required>
-                </div>
+                    <div class="entry_date">
+                        <label for="birth">Data de nascimento<span class="red-font">*</span>:</label>
+                        <input type="date" name="birth" required>
+                    </div>
 
+                    <div class="entry_text">
+                        <label for="cpf">CPF: </label>
+                        <input type="text" name="cpf" placeholder="999.999.999-99" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}">
+                    </div>
+
+                    <div class="entry_numb">
+                        <label for="phone">Telefone<span class="red-font">*</span>:</label>
+                        <input type="tel" placeholder="(99) 9999-9999" name="phone" required>
+                    </div>
+                </fieldset>
+
+                <fieldset class="p1rem">
+                    <legend>Sobre a obra</legend>
+                    
+                    <div class="entr_txt">
+                        <label for="fav-person">Personagem favorito:</label>
+                        <input type="text" name="fav-person">
+                    </div>
+                    
+                    <div class="entr_txt">
+                        <label for="fav-arc">Arco favorito:</label>
+                        <input type="text" name="fav-arc">
+                    </div>
+                    
+                    <div class="entr_txt">
+                        <label for="interesse">Contúdos de interesse:</label>
+                        <input type="text" name="intersse">
+                    </div>
+                    
+                    <div class="entry_radio">
+                        <b>Mídia de consumo:</b>
+                        <label for="manga"><input id="manga" type="radio" name="midia">Mangá</label>
+                        <label for="anime"><input id="anime" type="radio" name="midia">Anime</label>
+                    </div>
+
+                    <div class="time">
+                        <b>A quanto tempo é fã?</b><br>
+                        <input type="number" name="number-fan-time" id="number-fan-time">
+                        <select>
+                            <option value="meses">meses</option>
+                            <option value="anos">anos</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <input id="recive-email" type="checkbox" name="recive-email">
+                        <label for="recive-email">Desejo receber atualizações e notícias.</label>
+                    </div>
+                </fieldset>
                 <input class="formB" type="submit" value="Enviar" name="submit">
                 <input class="formB" type="reset" value="Limpar" name="clear">
             </fieldset>
