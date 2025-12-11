@@ -67,6 +67,10 @@
     grid-template-columns: 15% 1fr;
 }
 
+.content-page.withoutNav {
+    grid-template-columns: 1fr 40%;
+}
+
 article {
     line-height: normal;
     font-weight: 350;
@@ -77,4 +81,8 @@ summary {
     position: sticky;
     top: 5px;
     height: fit-content;
+}
+
+article ul {
+    padding-left: 2rem;
 }
